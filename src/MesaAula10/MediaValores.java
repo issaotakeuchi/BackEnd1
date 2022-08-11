@@ -26,7 +26,7 @@ public class MediaValores {
         listaInteiros.add(numeroInteiro);
     }
 
-    public void tamanhoDaLista()throws Exception{
+    public void tamanhoDaLista(){
         if (listaInteiros.size() >= 5 && listaInteiros.size() <= 10){
             logger.info("o comprimento da lista e maior que 5");
         } else if (listaInteiros.size() > 10){
